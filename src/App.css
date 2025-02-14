@@ -5,10 +5,7 @@
   font-family: "PT Sans", sans-serif;
 }
 
-.home,
-.services,
-.products,
-.contact {
+.home {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -21,8 +18,8 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  color: #574747;
+  font-size: 50px;
   height: 50vh;
 }
 
@@ -34,7 +31,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #333;
-  font-size: 100px;
+  font-size: 50px;
   height: 50vh;
   display: flex;
   justify-content: center;
@@ -58,11 +55,29 @@
   background-color: #ead8c0;
 }
 
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .contact {
+  align-items: center;
   background-image: url("/images/background-contact.jpg");
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
-  font-size: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-size: 50px;
+  justify-content: center;
+  text-align: center;
+  color: #333;
+}
+
+.contact-info {
+  font-size: 20px;
+  margin-top: 10px;
 }
