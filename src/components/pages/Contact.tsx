@@ -15,7 +15,9 @@ export default function Contact() {
           >
             363 Heritage Dr SE, Calgary, AB
           </a>
-          <div>403-802-3883</div>
+          <div>
+            <a href="tel:+14038023883">403-802-3883</a>
+          </div>
         </div>
       </h1>
       <Footer />
