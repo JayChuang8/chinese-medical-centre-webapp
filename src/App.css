@@ -5,7 +5,8 @@
   font-family: "PT Sans", sans-serif;
 }
 
-.home {
+.home,
+.services {
   display: flex;
   height: 90vh;
   align-items: center;
