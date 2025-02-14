@@ -8,20 +8,20 @@ import ServiceRateSection, {
 
 const services: ServiceRate[] = [
   { service: "Initial Visit", rate: "$20" },
-  { service: "Accupuncture Visit", rate: "$75 (60 minutes)" },
-  { service: "", rate: "$40 (30 minutes)" },
+  { service: "Accupuncture Visit", rate: "$75 / 60 minutes" },
+  { service: "", rate: "$40 / 30 minutes" },
 ];
 
 const packages: PackageRate[] = [
   {
     service: "5 Session Accupuncture",
-    rate: "$65/session",
-    totalPrice: "$325/package",
+    rate: "$65 / session",
+    totalPrice: "$325 / package",
   },
   {
     service: "10 Session Accupuncture",
-    rate: "$60/session",
-    totalPrice: "$600/package",
+    rate: "$60 / session",
+    totalPrice: "$600 / package",
   },
 ];
 
