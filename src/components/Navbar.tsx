@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Button } from "./Button";
 import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { Button } from "./Button";
 import "./Navbar.css";
 
 function Navbar() {
@@ -20,9 +21,9 @@ function Navbar() {
 
   useEffect(() => {
     showButton();
+    window.addEventListener("resize", showButton);
+    return () => window.removeEventListener("resize", showButton);
   }, []);
-
-  window.addEventListener("resize", showButton);
 
   return (
     <>
@@ -31,6 +32,13 @@ function Navbar() {
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             HPCMC
           </Link>
+          <div className="menu-icon" onClick={handleClick}>
+            {click ? (
+              <FaTimes className="fa-times" />
+            ) : (
+              <FaBars className="fa-bars" />
+            )}
+          </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
@@ -46,23 +54,16 @@ function Navbar() {
                 Services
               </Link>
             </li>
-            <li>
+            <li className="nav-item">
               <Link
                 to="/contact"
-                className="nav-links-mobile"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Contact
               </Link>
             </li>
           </ul>
-          {button && (
-            <Link to="/contact" className="btn-mobile">
-              <Button className="btns" buttonStyle="outline">
-                Contact Us
-              </Button>
-            </Link>
-          )}
         </div>
       </nav>
     </>
