@@ -24,7 +24,7 @@
   height: 50vh;
 }
 
-.accupuncture,
+.acupuncture,
 .massage,
 .tcmHerbs,
 .cupping {
@@ -40,7 +40,7 @@
   margin: 0;
 }
 
-.accupuncture {
+.acupuncture {
   background-color: #f5f5dc;
 }
 
@@ -81,4 +81,26 @@
 .contact-info {
   font-size: 20px;
   margin-top: 10px;
+}
+
+.center-align-text {
+  text-align: center;
+}
+
+.left-align-text {
+  text-align: left;
+}
+
+ul {
+  text-align: left;
+}
+
+li {
+  text-align: left;
+}
+
+.center-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

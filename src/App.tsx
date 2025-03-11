@@ -5,7 +5,7 @@ import Home from "./components/pages/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Services from "./components/pages/Services";
 import Contact from "./components/pages/Contact";
-import Accupuncture from "./components/pages/Accupuncture";
+import Acupuncture from "./components/pages/Acupuncture";
 import ScrollToTop from "./components/ScrollToTop";
 import Massage from "./components/pages/Massage";
 import TcmHerbs from "./components/pages/TcmHerbs";
@@ -20,7 +20,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/services" component={Services} />
-          <Route path="/accupuncture" component={Accupuncture} />
+          <Route path="/acupuncture" component={Acupuncture} />
           <Route path="/massage" component={Massage} />
           <Route path="/tcmHerbs" component={TcmHerbs} />
           <Route path="/cupping" component={Cupping} />

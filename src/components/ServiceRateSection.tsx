@@ -1,6 +1,5 @@
 import React from "react";
 import "./ServiceRateSection.css";
-import CardItem from "./CardItem";
 
 export type ServiceRate = {
   service: string;
@@ -57,6 +56,11 @@ function ServiceRateSection({ services, packages }: ServiceRateSectionProps) {
           </div>
         </>
       )}
+
+      <div className="center-align-text">
+        All prices subject to change without notice If you have any questions
+        about our Pricing, do not hesitate to call us at 403-802-3883
+      </div>
     </div>
   );
 }

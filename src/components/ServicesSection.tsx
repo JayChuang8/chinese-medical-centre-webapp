@@ -10,10 +10,10 @@ function ServicesSection() {
         <ul className="services-section-items">
           <CardItem
             color="#F5F5DC"
-            imageSrc="images/accupuncture.jpg"
+            imageSrc="images/acupuncture.jpg"
             label="Learn More"
-            path="/accupuncture"
-            text="Accupuncture"
+            path="/acupuncture"
+            text="Acupuncture"
           />
           <CardItem
             color="#D8CFC4"
