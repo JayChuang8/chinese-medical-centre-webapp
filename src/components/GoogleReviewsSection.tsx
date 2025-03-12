@@ -1,6 +1,5 @@
 import React from "react";
 import "./GoogleReviewsSection.css";
-import CardItem from "./CardItem";
 import { ReactGoogleReviews } from "react-google-reviews";
 import "react-google-reviews/dist/index.css";
 
