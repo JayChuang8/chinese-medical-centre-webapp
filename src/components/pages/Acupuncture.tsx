@@ -6,7 +6,7 @@ import ServiceRateSection, {
   ServiceRate,
 } from "../ServiceRateSection";
 import ServiceInfoSection, { InformationSection } from "../ServiceInfoSection";
-import "./ServicesSection.css";
+import "../ServiceRateSection.css";
 
 const services: ServiceRate[] = [
   { service: "Initial Visit", rate: "$20" },
