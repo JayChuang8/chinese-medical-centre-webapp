@@ -8,12 +8,19 @@ export type InformationSection = {
 };
 
 type ServiceInfoSectionProps = {
+  className?: string;
   informationSections?: InformationSection[];
+  title?: string;
 };
 
-function ServiceInfoSection({ informationSections }: ServiceInfoSectionProps) {
+function ServiceInfoSection({
+  className,
+  informationSections,
+  title,
+}: ServiceInfoSectionProps) {
   return (
-    <div className="services-section">
+    <div className={`services-section ${className}`}>
+      <h1>{title}</h1>
       {informationSections &&
         informationSections.length > 0 &&
         informationSections.map((information) => (
