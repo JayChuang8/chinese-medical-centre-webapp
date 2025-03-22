@@ -62,6 +62,14 @@ const informationSections: InformationSection[] = [
           mastectomy, or other surgical procedures, especially those where lymph
           nodes may be removed or damaged.
         </p>
+        <br />
+        <p>
+          Our massage therapist is a Registered Massage Therapist with 2,200
+          hours of training. With a medical background from China, he pursued a
+          career in massage therapy upon arriving in Canada to continue
+          supporting people's health and wellness. His primary focus is on pain
+          management and improving functionality.
+        </p>
       </>
     ),
     title: "WHAT IS MASSAGE?",
