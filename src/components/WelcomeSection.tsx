@@ -15,6 +15,7 @@ function WelcomeSection() {
           </Button>
         </Link>
       </div>
+      <h2>Be Healed, Be Healthy, Be Happy</h2>
     </div>
   );
 }
