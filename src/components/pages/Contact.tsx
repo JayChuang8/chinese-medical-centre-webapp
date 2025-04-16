@@ -18,6 +18,12 @@ export default function Contact() {
           <div>
             <a href="tel:+14038023883">403-802-3883</a>
           </div>
+          <div>
+            <h2>Business hours:</h2>
+            <h2>Weekdays: 10:00am - 6:00pm</h2>
+            <h2>Saturday: 10:00am - 5:00pm</h2>
+            <h2>Sunday & Holidays: Closed</h2>
+          </div>
         </div>
       </h1>
       <Footer />

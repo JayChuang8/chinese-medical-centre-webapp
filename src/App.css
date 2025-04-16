@@ -75,12 +75,15 @@
   font-size: 50px;
   justify-content: center;
   text-align: center;
-  color: #333;
+  color: #ffffff;
 }
 
 .contact-info {
   font-size: 20px;
   margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .center-align-text {
@@ -103,4 +106,8 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.contact h2 {
+  color: #ffffff;
 }
